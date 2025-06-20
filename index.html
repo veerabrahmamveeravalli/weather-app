@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="weatherStyle.css">
+</head>
+<body>
+    <form class ="weatherform">
+        <input type="text"  class="cityInput" id="city" placeholder="Enter city name">
+        <button type="submit" id="submit">Get Weather</button>
+    </form>
+    <div class="card" style="display: none;">
+        
+        <p class ="errorMessage" style="color: rgb(236, 74, 74);"></p> 
+        <p class="dateTimeDisplay"></p>
+        <h1 class="cityDisplay"></h1>
+        <p class="tempDisplay"></p>
+        <p class="humidityDisplay"></p>
+        <p class="tempRangeDisplay"></p>
+        <p class="descDisplay"></p>
+        
+        
+        <p class="weatherEmoji"></p>
+        <p class="windDisplay"></p>
+               
+        
+        
+    </div>
+    <script src="./weatherJs.js"></script>
+</body>
+</html>
